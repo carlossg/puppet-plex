@@ -1,4 +1,4 @@
-class plex::pakcage::debian {
+class plex::package::debian {
 
   apt::key { 'plex':
     key        => '72740199',

@@ -7,3 +7,5 @@ project_page 'http://github.com/carlossg/puppet-plex'
 source 'http://github.com/carlossg/puppet-plex'
 summary 'Plex Media Server module for Puppet'
 description 'A Puppet module to install and configure Plex Media Server'
+
+dependency 'puppetlabs/apt'
